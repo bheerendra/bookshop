@@ -18,7 +18,8 @@ File or Folder | Purpose
 - Open a new terminal and run `cds watch` 
 - (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
 
-## Vscode Local Development Setup
+
+# Vscode Local Development Setup
 
 - Install Node.js
 Get latest node js Long Term Supported version (LTS) from https://nodejs.org/en/download/
@@ -67,11 +68,11 @@ SAP Fiori tools – Guided Development | How to guides
 SAP Fiori tools – Service Modeler | OData visualization, annotation
 SAP Fiori tools – XML Annotation Language Server | micro snippets, hints
     
-- Explore and Install generators (Ctrl + Shift + P)
+- In VSCode, Explore and Install generators (Ctrl + Shift + P)
 
-	`starting with @sap`
+`starting with @sap`
 
-## Create a CAP Project
+# Create a CAP Project
 - Run yeoman generator, provide name and choose HANA/MTA options
 
 `yo @sap/cap-project`
