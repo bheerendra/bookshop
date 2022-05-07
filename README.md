@@ -20,25 +20,33 @@ File or Folder | Purpose
 
 ## Vscode Local Development Setup
 
-- Install Node.js Latest LTS
-`https://nodejs.org/en/download/`
+- Install Node.js
+Get latest node js Long Term Supported version (LTS) from https://nodejs.org/en/download/
 - Set Node SAP Registry
 `npm config set @sap:registry http://registry.npmjs.org`
+
 - Install ui cli
 `npm install --global @ui5/cli`
+
 - Install cds development kit command line
 `npm install --global @sap/cds-dk`
+
 - Yeoman to kickstart new projects, using generators/templates
 `npm install --global yo`
+
 - Cloud MTA Build Tool builds a deployment-ready multitarget application (MTA) archive .mtar file
 `npm install -g mbt`
+
 - SAP HANA admin and metadata inspection functionality
 `npm install -g hana-cli`
+
 - Grunt
 `npm install -g grunt-cli`
+
 - Install VSCode
-`https://code.visualstudio.com/download`
-    Install VSCode extensions
+Download and install latest vscode from https://code.visualstudio.com/download
+
+- Install VSCode extensions
     -------------------------
     Extensions
 	SAP CDS Language Support
@@ -49,6 +57,7 @@ File or Folder | Purpose
 	SAP Fiori tools – Guided Development
 	SAP Fiori tools – Service Modeler
 	SAP Fiori tools – XML Annotation Language Server
+    
 - Explore and Install generators (Ctrl + Shift + P)
 	`starting with @sap`
 
@@ -60,7 +69,8 @@ File or Folder | Purpose
 
 - Modify package.json  to prefer hana deployment
 
-`"cds": {
+```
+"cds": {
 			"build": {
 				"tasks": [
 					{
@@ -80,7 +90,8 @@ File or Folder | Purpose
 					"kind": "hana"
 				}
 			}
-		}`
+		}
+```
 
 `npm install`
 - Update dependencies
