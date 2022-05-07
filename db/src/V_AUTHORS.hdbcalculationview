@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="V_AUTHORS" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="V_AUTHORS"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="COM_SAP_BOOKSHOP_AUTHORS">
+    <resourceUri>COM_SAP_BOOKSHOP_AUTHORS</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+
+<logicalModel id="COM_SAP_BOOKSHOP_AUTHORS">
+  <attributes>
+    <attribute id="CREATEDAT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CREATEDAT"/>
+      <keyMapping columnObjectName="COM_SAP_BOOKSHOP_AUTHORS" columnName="CREATEDAT"/>
+    </attribute>
+    <attribute id="CREATEDBY" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CREATEDBY"/>
+      <keyMapping columnObjectName="COM_SAP_BOOKSHOP_AUTHORS" columnName="CREATEDBY"/>
+    </attribute>
+    <attribute id="MODIFIEDAT" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MODIFIEDAT"/>
+      <keyMapping columnObjectName="COM_SAP_BOOKSHOP_AUTHORS" columnName="MODIFIEDAT"/>
+    </attribute>
+    <attribute id="MODIFIEDBY" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MODIFIEDBY"/>
+      <keyMapping columnObjectName="COM_SAP_BOOKSHOP_AUTHORS" columnName="MODIFIEDBY"/>
+    </attribute>
+    <attribute id="ID" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ID"/>
+      <keyMapping columnObjectName="COM_SAP_BOOKSHOP_AUTHORS" columnName="ID"/>
+    </attribute>
+    <attribute id="NAME" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME"/>
+      <keyMapping columnObjectName="COM_SAP_BOOKSHOP_AUTHORS" columnName="NAME"/>
+    </attribute>
+    <attribute id="DATEOFBIRTH" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATEOFBIRTH"/>
+      <keyMapping columnObjectName="COM_SAP_BOOKSHOP_AUTHORS" columnName="DATEOFBIRTH"/>
+    </attribute>
+    <attribute id="DATEOFDEATH" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATEOFDEATH"/>
+      <keyMapping columnObjectName="COM_SAP_BOOKSHOP_AUTHORS" columnName="DATEOFDEATH"/>
+    </attribute>
+    <attribute id="PLACEOFBIRTH" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLACEOFBIRTH"/>
+      <keyMapping columnObjectName="COM_SAP_BOOKSHOP_AUTHORS" columnName="PLACEOFBIRTH"/>
+    </attribute>
+    <attribute id="PLACEOFDEATH" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLACEOFDEATH"/>
+      <keyMapping columnObjectName="COM_SAP_BOOKSHOP_AUTHORS" columnName="PLACEOFDEATH"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+    
+  </shapes>
+</layout>
+</Calculation:scenario>

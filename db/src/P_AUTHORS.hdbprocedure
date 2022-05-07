@@ -1,0 +1,17 @@
+PROCEDURE "P_AUTHORS"( IN IN_ID INTEGER, OUT OUT_AUTHOR  table ( 
+               "ID" INTEGER, 
+               "NAME"  NVARCHAR(111) ))
+   LANGUAGE SQLSCRIPT
+   SQL SECURITY INVOKER
+   --DEFAULT SCHEMA <default_schema_name>
+   READS SQL DATA AS
+BEGIN
+
+    
+    IF :IN_ID is not NULL
+    THEN
+        OUT_AUTHOR = Select ID,NAME from COM_SAP_BOOKSHOP_AUTHORS WHERE ID = :IN_ID;    
+    ELSE
+        OUT_AUTHOR = Select ID,NAME from COM_SAP_BOOKSHOP_AUTHORS;
+    END IF;
+END
