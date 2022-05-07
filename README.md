@@ -54,16 +54,18 @@ Get latest node js Long Term Supported version (LTS) from https://nodejs.org/en/
 
 Download and install latest vscode from https://code.visualstudio.com/download
 
-Install VSCode extensions
--------------------------
-SAP CDS Language Support
-XML Toolkit
-Application Wizard
-SAP Fiori tools - Extension Pack
-SAP Fiori tools – Application Modeler
-SAP Fiori tools – Guided Development
-SAP Fiori tools – Service Modeler
-SAP Fiori tools – XML Annotation Language Server
+- Install VSCode extensions
+
+Extension | Purpose
+---------|----------
+SAP CDS Language Support | CDS Language support for highlighting, linting etc
+XML Toolkit | XML Syntax validation
+Application Wizard | Application generator
+SAP Fiori tools - Extension Pack | Bundle
+SAP Fiori tools – Application Modeler | Page design, Navigations
+SAP Fiori tools – Guided Development | How to guides
+SAP Fiori tools – Service Modeler | OData visualization, annotation
+SAP Fiori tools – XML Annotation Language Server | micro snippets, hints
     
 - Explore and Install generators (Ctrl + Shift + P)
 
