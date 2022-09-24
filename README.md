@@ -23,6 +23,10 @@ File or Folder | Purpose
 
 - Install Node.js
 Get latest node js Long Term Supported version (LTS) from https://nodejs.org/en/download/
+
+- Install Git
+Get latest installer from  https://git-scm.com/download/win and install
+
 - Set Node SAP Registry
 
 `npm config set @sap:registry http://registry.npmjs.org`
@@ -50,6 +54,18 @@ Get latest node js Long Term Supported version (LTS) from https://nodejs.org/en/
 - Grunt
 
 `npm install -g grunt-cli`
+
+- Download and Install Cloud Foundry
+
+https://packages.cloudfoundry.org/stable?release=windows64&version=v7&source=github
+
+- Install CF Plugin - Default-Env
+
+`cf install-plugin DefaultEnv -f`
+
+- CF plugin - multiapps
+
+`cf install-plugin multiapps -f`
 
 - Install VSCode
 
